@@ -118,6 +118,8 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_sdm439
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_sdm439
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
 
 # Memory Config
 MALLOC_SVELTE := true
